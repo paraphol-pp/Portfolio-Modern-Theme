@@ -1,8 +1,12 @@
+"use client";
+import { motion } from "framer-motion";
+
 // components
 import Image from "next/image"
 import Container from "../components/Container"
 import GlowWrapper from "../components/GlowWrapper"
 import Socials from "../components/Socials"
+import { TypeAnimation } from "react-type-animation";
 
 
 const Hero = () => {
@@ -14,7 +18,21 @@ const Hero = () => {
 
           <div className="space-y-10 flex flex-col justify-center h-full">
             <span className="block text-xl text-indigo-600 font-semibold uppercase">welcome to my world</span>
-            <h1 className="text-6xl  font-bold capitalize">I'm Paraphol Puangpee<br />web <span className="text-indigo-600">Designer</span></h1>
+            <h1 className="text-6xl font-bold capitalize">
+              I'm Paraphol Puangpee<br />
+              web{" "}
+              <TypeAnimation
+                sequence={[
+                  "Designer", 2000,
+                  "Developer", 2000,
+                  "UI/UX Enthusiast", 2000,
+                ]}
+                wrapper="span"
+                speed={50}
+                repeat={Infinity}
+                className="text-indigo-600"
+              />
+            </h1>
             <p className="text-xl text-white/50 max-w-[470px]">A personal portfolio is a collection of your work, achievements, and skills that highlights your abilities and professional growth. It serves as</p>
 
             <div>

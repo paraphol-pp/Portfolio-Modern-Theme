@@ -13,15 +13,19 @@
   --color-secondary: #060606;
 }
 
+
+
+body{
+  @apply bg-secondary text-white scroll-smooth;
+}
+
 .container {
   margin-inline: auto;
   padding-inline: var(--container-padding);
   width: 100%;
 }
 
-body{
-  @apply bg-secondary text-white scroll-smooth;
-}
+
 /* :root {
   --background: #ffffff;
   --foreground: #171717;
