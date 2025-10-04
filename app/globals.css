@@ -1,6 +1,28 @@
 @import "tailwindcss";
 
-:root {
+@theme {
+  --container-padding: 1rem;
+
+  --breakpoint-sm: 640px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 1024px;
+  --breakpoint-xl: 1200px;
+  --breakpoint-2xl: 1300px;
+
+  /* color */
+  --color-secondary: #060606;
+}
+
+.container {
+  margin-inline: auto;
+  padding-inline: var(--container-padding);
+  width: 100%;
+}
+
+body{
+  @apply bg-secondary text-white scroll-smooth;
+}
+/* :root {
   --background: #ffffff;
   --foreground: #171717;
 }
@@ -23,4 +45,4 @@ body {
   background: var(--background);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
-}
+} */
