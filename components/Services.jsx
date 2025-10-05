@@ -19,10 +19,10 @@ const Services = () => {
             <p className="bg-indigo-600 p-3 rounded-full text-xl">
               <FaCode />
             </p>
-            <h1 className="text-2xl font-semibold">Ui/Ux Design</h1>
+            <h1 className="text-xl font-semibold">Ui/Ux Design</h1>
           </div>
 
-          <p className="max-w-[550px] mt-5 text-lg font-medium text-white/50">
+          <p className="max-w-[600px] mt-5 text-md  text-white/50">
             Each one showcases my approach and dedication to detail, creativity
             Each one showcases my approach and dedication to detail, creativity
           </p>
@@ -33,10 +33,10 @@ const Services = () => {
             <p className="bg-indigo-600 p-3 rounded-full text-xl">
               <IoMdColorPalette />
             </p>
-            <h1 className="text-2xl font-semibold">Web Development</h1>
+            <h1 className="text-xl font-semibold">Web Development</h1>
           </div>
 
-          <p className="max-w-[550px] mt-5 text-lg font-medium text-white/50">
+          <p className="max-w-[600px] mt-5 text-md  text-white/50">
             Each one showcases my approach and dedication to detail, creativity
             Each one showcases my approach and dedication to detail, creativity
           </p>
@@ -47,10 +47,10 @@ const Services = () => {
             <p className="bg-indigo-600 p-3 rounded-full text-xl">
               <FaPrint />
             </p>
-            <h1 className="text-2xl font-semibold">Business Solutions</h1>
+            <h1 className="text-xl font-semibold">Business Solutions</h1>
           </div>
 
-          <p className="max-w-[550px] mt-5 text-lg font-medium text-white/50">
+          <p className="max-w-[600px] mt-5 text-md  text-white/50">
             Each one showcases my approach and dedication to detail, creativity
             Each one showcases my approach and dedication to detail, creativity
           </p>
@@ -61,10 +61,10 @@ const Services = () => {
             <p className="bg-indigo-600 p-3 rounded-full text-xl">
               <FaHandshake />
             </p>
-            <h1 className="text-2xl font-semibold">Profit Partners</h1>
+            <h1 className="text-xl font-semibold">Profit Partners</h1>
           </div>
 
-          <p className="max-w-[550px] mt-5 text-lg font-medium text-white/50">
+          <p className="max-w-[600px] mt-5 text-md  text-white/50">
             Each one showcases my approach and dedication to detail, creativity
             Each one showcases my approach and dedication to detail, creativity
           </p>

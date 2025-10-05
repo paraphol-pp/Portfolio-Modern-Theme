@@ -1,7 +1,7 @@
 "use client"
 import { useState } from "react";
 
-const GlowWrapper = ({ children, type = "card"}) => {
+const GlowWrapper = ({ children, type = "card", className = "", noPadding = false }) => {
   const [pos, setPos] = useState({ x: 0, y: 0 });
   const mouseMove = (e) => {
     const rect = e.currentTarget.getBoundingClientRect();
@@ -13,7 +13,7 @@ const GlowWrapper = ({ children, type = "card"}) => {
 
   return (
     <div onMouseMove={mouseMove}
-     className="relative rounded-2xl p-[2px] group">
+     className="relative rounded-2xl p-[2px] group ">
       <div 
         className="absolute inset-0 opacity-0 rounded-2xl group-hover:opacity-100 transition duration-400 p-[2.5px]"
         style={{
@@ -24,12 +24,13 @@ const GlowWrapper = ({ children, type = "card"}) => {
       </div>
 
       <div
-        className={
-          type === "card"
-          ? "relative rounded-2xl bg-neutral-900 p-10"
-          : "relative rounded-2xl overflow-hidden w-full h-full"
-        }
+        className={`relative rounded-2xl bg-neutral-900 ${
+          noPadding ? "" : "p-7"
+        }`}
       >
+      
+
+        
         {children}
       </div>
 

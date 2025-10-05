@@ -18,7 +18,7 @@ const Hero = () => {
 
           <div className="space-y-10 flex flex-col justify-center h-full">
             <span className="block text-xl text-indigo-600 font-semibold uppercase">welcome to my world</span>
-            <h1 className="text-6xl font-bold capitalize">
+            <p className="text-5xl font-bold capitalize">
               I'm Paraphol Puangpee<br />
               web{" "}
               <TypeAnimation
@@ -32,11 +32,14 @@ const Hero = () => {
                 repeat={Infinity}
                 className="text-indigo-600"
               />
+            </p>
+
+            <h1 className="text-xl text-white/50 max-w-[470px]">
+            A personal portfolio is a collection of your work, achievements, and skills that highlights your abilities and professional growth. It serves as
             </h1>
-            <p className="text-xl text-white/50 max-w-[470px]">A personal portfolio is a collection of your work, achievements, and skills that highlights your abilities and professional growth. It serves as</p>
 
             <div>
-              <h2 className="text-xl ">Find me on</h2>
+              <p className="text-xl mb-5">Find me on</p>
               <Socials/>
             </div>
 
